@@ -1,3 +1,9 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+	font-family: "PokemonSolid";
+	src: url( "../fonts/PokemonSolid.woff" );
+}
+
 body, html {
 	width: 100%;
 	height: 100%;
@@ -42,7 +48,10 @@ body, html {
 }
 
 #title {
-	font-size: 50px;
+	position: relative;
+	top: -40px;
+	font-size: 40px;
+	font-family: "PokemonSolid";
 }
 
 #catch-header {
